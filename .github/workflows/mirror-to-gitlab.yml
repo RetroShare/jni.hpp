@@ -26,5 +26,5 @@ jobs:
         run: |
           git clone --bare "https://github.com/${GITHUB_REPOSITORY}.git" repo.git
           cd repo.git
-          git remote set-url --push origin git@gitlab.com:RetroShare/jni-hpp.git
+          git remote set-url --push origin git@gitlab.com:RetroShare/jni.hpp.git
           git push --prune origin 'refs/heads/*:refs/heads/*' 'refs/tags/*:refs/tags/*'
